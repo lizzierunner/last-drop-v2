@@ -1,0 +1,112 @@
+body {
+  background: #0a2233;
+  color: #f3e9d2;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.navigation {
+  background: #18344a;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation a {
+  color: #f3e9d2;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.navigation a:hover {
+  color: #ffb347;
+}
+
+.mission-list, .mission-page, .social-impact {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #18344a;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  padding: 2rem;
+}
+.mission-list h2, .mission-page h2, .social-impact h2 {
+  color: #ffb347;
+  margin-top: 0;
+}
+.mission-list ul {
+  list-style: none;
+  padding: 0;
+}
+.mission-list li {
+  margin: 1rem 0;
+}
+.mission-list a {
+  color: #7fd8be;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+.mission-list a:hover {
+  color: #ffb347;
+}
+
+.choices button {
+  margin: 0.5rem 1rem 0.5rem 0;
+  padding: 0.5rem 1.2rem;
+  background: #7fd8be;
+  color: #18344a;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.choices button:hover {
+  background: #ffb347;
+  color: #18344a;
+}
+.choice-result {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #7fd8be;
+  font-weight: bold;
+}
+
+.social-impact ul {
+  list-style: none;
+  padding: 0;
+}
+.social-impact li {
+  margin-bottom: 2rem;
+}
+.social-impact button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: #7fd8be;
+  color: #18344a;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.social-impact button:hover:enabled {
+  background: #ffb347;
+}
+.fact-file {
+  margin-top: 1rem;
+  background: #0a2233;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #ffb347;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
