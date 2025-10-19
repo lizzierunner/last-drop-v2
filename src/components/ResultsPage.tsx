@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useGameStore } from '../store'
 
 export default function ResultsPage() {
@@ -11,11 +11,11 @@ export default function ResultsPage() {
 	const randomFact = facts[Math.floor(Math.random() * facts.length)]
 
 	return (
-		<section className="results card">
-			<h1>Mission Complete 💧</h1>
-			<p>You earned <strong>{xp}</strong> XP</p>
-			<p className="fact">🌍 {randomFact}</p>
-			<button onClick={reset}>Run Again</button>
-		</section>
+			<section className="results card">
+				<h1 className="results-title">Mission Complete 💧</h1>
+				<p className="results-xp">You earned <strong>{xp}</strong> XP</p>
+				<p className="fact">🌍 {randomFact}</p>
+				<button className="results-btn" onClick={reset}>Run Again</button>
+			</section>
 	)
 }

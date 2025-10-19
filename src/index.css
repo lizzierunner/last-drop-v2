@@ -14,6 +14,72 @@ body {
 }
 .app { text-align: center; padding: 20px; }
 .hud { display: flex; gap: 24px; justify-content: center; }
+.hud-value span {
+  color: #fff;
+  background: #0E2A47;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-header {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+.app-logo {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 16px;
+}
+.app-title {
+  font-family: Orbitron, sans-serif;
+  font-size: 2.5rem;
+  color: #0ff;
+  margin: 0;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 12px #0ff, 0 0 32px #f0f;
+}
+.app-tagline {
+  color: #ffb347;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0;
+  font-weight: 500;
+  text-shadow: 0 0 8px #222;
+}
+.app-main {
+  flex: 1;
+}
+.app-footer {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+  padding: 1rem 0 0.5rem 0;
+  letter-spacing: 0.05em;
+}
+.results-title {
+  font-size: 2rem;
+  color: #56CCF2;
+}
+.results-xp {
+  font-size: 1.2rem;
+  color: #F2C94C;
+}
+.results-btn {
+  background: var(--cyan);
+  color: #0E2A47;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.results-btn:hover {
+  background: var(--gold);
+}
 .hud div {
   font-weight: bold;
   color: #fff;

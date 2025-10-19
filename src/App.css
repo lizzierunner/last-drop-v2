@@ -1,3 +1,48 @@
+.runner-img {
+  width: 180px;
+  height: auto;
+  margin-top: 1rem;
+  filter: drop-shadow(0 0 16px #F9B233) drop-shadow(0 0 32px #1A2A36);
+  opacity: 0.95;
+}
+
+body {
+  background: linear-gradient(180deg, #1A2A36 0%, #2C5364 100%);
+  color: #F9B233;
+}
+
+.app-layout {
+  background: linear-gradient(180deg, #1A2A36 0%, #2C5364 100%);
+  color: #F9B233;
+}
+
+/* Mad Max neon desert accent colors */
+.hud, .progress, .bar, .app-footer {
+  background: rgba(41, 44, 61, 0.85);
+  border: 2px solid #F9B233;
+  color: #F9B233;
+}
+.bar {
+  background: linear-gradient(90deg, #F9B233 0%, #F76E11 100%);
+  box-shadow: 0 0 8px #F9B233, 0 0 16px #F76E11;
+}
+.app-footer {
+  background: #1A2A36;
+  color: #F9B233;
+  border-top: 2px solid #F9B233;
+}
+/* Progress bar dynamic width classes */
+.bar-width-0 { width: 0%; }
+.bar-width-10 { width: 10%; }
+.bar-width-20 { width: 20%; }
+.bar-width-30 { width: 30%; }
+.bar-width-40 { width: 40%; }
+.bar-width-50 { width: 50%; }
+.bar-width-60 { width: 60%; }
+.bar-width-70 { width: 70%; }
+.bar-width-80 { width: 80%; }
+.bar-width-90 { width: 90%; }
+.bar-width-100 { width: 100%; }
 #root {
   max-width: 1280px;
   margin: 0 auto;

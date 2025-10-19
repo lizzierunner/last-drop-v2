@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useGameStore } from '../store'
 import { triggerKonami } from '../easterEggs'
 
@@ -28,9 +28,9 @@ export default function MissionScreen() {
 		<section className="mission">
 			<h2>Mission: The Wasteland Circuit</h2>
 			<p className="muted">Hold pace. Watch hydration. Avoid raiders.</p>
-					<div className="progress" role="progressbar" aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100} tabIndex={0} aria-label="Mission progress">
-						<div className="bar" style={{ width: `${progress}%` }}></div>
-					</div>
+							<div className="progress" role="progressbar" aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100} tabIndex={0} aria-label="Mission progress">
+								<div className={`bar bar-width-${progress}`}></div>
+							</div>
 			<p className="hint">Tip: Try the Konami Code ↑ ↑ ↓ ↓ ← → ← → B A</p>
 		</section>
 	)
