@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💧 LAST DROP
 
-Currently, two official plugins are available:
+### *Every Drop Counts. Every Mile Matters.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Created by:** Elizabeth Johnson  
+**Course:** Global Career Accelerator — Web Development for Everyone (2025)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌍 Overview
 
-## Expanding the ESLint configuration
+**Last Drop** is a cyberpunk desert-runner game inspired by *Mad Max* and *TRON: Legacy*, created to raise awareness about the global water crisis through immersive, interactive gameplay.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Built using **React + Vite + TypeScript**, it combines storytelling, real-time progress tracking, sound, and hidden Easter eggs to make learning about clean water access both fun and meaningful.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🎮 Gameplay Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 💧 **Hydration Meter** — manage hydration during your mission.  
+- ⚡ **XP System** — earn XP as you progress through the desert.  
+- 🚀 **Mission Progress Bar** — track your journey to survival.  
+- 🎉 **Results Screen** — complete the run to reveal global water facts.  
+- 🕹️ **Konami Code Easter Egg** — unlock confetti and a hydration boost!  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧠 Key Technical Highlights
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Feature | Description |
+|----------|-------------|
+| ⚙️ **State Management** | Built with Zustand for hydration, XP, and mission tracking. |
+| 💥 **Interactive Confetti** | Uses `canvas-confetti` for celebrations. |
+| 🔊 **Audio-Ready** | `howler.js` integrated for ambient loops and chase sounds. |
+| ♿ **Accessible Design** | WCAG-compliant colors, focus outlines, and reduced motion support. |
+| 🌈 **Neon Desert UI** | TRON-meets-Mad Max visual design. |
+
+---
+
+## 🧩 Tech Stack
+
+- **Framework:** React (Vite + TypeScript)
+- **State Management:** Zustand
+- **Audio:** Howler.js
+- **Visual FX:** Canvas Confetti
+- **Styling:** CSS (custom variables + prefers-reduced-motion)
+- **Deployment:** GitHub Pages (optional workflow included)
+
+---
+
+## 🗂️ Folder Structure
